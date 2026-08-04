@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[dependencies.cobblecompanion_cobbledollars]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.233,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cobblecompanion_cobbledollars]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
+
+# CobbleCompanion: Basis wird zur Laufzeit als eigenes, separat installiertes Mod erwartet (siehe
+# build.gradle-Kommentar zu compileOnly) - required, da diese Mod ohne Basis' CompanionScreen/
+# Extension-API keine Funktion hat.
+[[dependencies.cobblecompanion_cobbledollars]]
+    modId="cobblecompanion"
+    type="required"
+    versionRange="[0.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Ohne die eigentliche CobbleDollars-Mod kann diese Erweiterung nichts tun (anders als in Basis,
+# wo Cobbledollars optional ist) - hier deshalb required.
+[[dependencies.cobblecompanion_cobbledollars]]
+    modId="cobbledollars"
+    type="required"
+    versionRange="[2.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+    modId="cobblecompanion_cobbledollars"
+    version="0.1.0"
+    displayName="CobbleCompanion: CobbleDollars"
+    displayTest="IGNORE_ALL_VERSION"
+    description="CobbleDollars-Erweiterung fuer CobbleCompanion: Wallet-Tab, Ueberweisungen und Creative-Zeitkauf."
