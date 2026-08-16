@@ -56,7 +56,8 @@ building.
 - [CobbleCompanion: CobbleDollars/CustomNPCs](https://github.com/siralusian/CobbleCompanion-CobbleDollars-CustomNPCs) —
   adds CustomNPCs trader integration on top of this.
 - [CobbleCompanion: CobblemonWorker](https://github.com/siralusian/CobbleCompanion-CobblemonWorker)
-- [CobbleCompanion: Create/Let's Do](https://github.com/siralusian/CreateLetsDo)
+- [Create: Let's Do Automation](https://github.com/siralusian/CreateLetsDo) — unrelated standalone
+  mod, automates Let's Do: Farm & Charm blocks with Create.
 - [CobbleCompanion: AllInOne](https://github.com/siralusian/CobbleCompanion-AllInOne) — this
   module plus everything else, in one file.
 - [CobbleCompanion: CobbleDollars-Bundle](https://github.com/siralusian/CobbleCompanion-CobbleDollarsBundle) —
@@ -116,7 +117,8 @@ selbst dort ablegen.
 - [CobbleCompanion: CobbleDollars/CustomNPCs](https://github.com/siralusian/CobbleCompanion-CobbleDollars-CustomNPCs) —
   fügt darauf aufbauend CustomNPCs-Händler-Anbindung hinzu.
 - [CobbleCompanion: CobblemonWorker](https://github.com/siralusian/CobbleCompanion-CobblemonWorker)
-- [CobbleCompanion: Create/Let's Do](https://github.com/siralusian/CreateLetsDo)
+- [Create: Let's Do Automation](https://github.com/siralusian/CreateLetsDo) — unrelated standalone
+  mod, automates Let's Do: Farm & Charm blocks with Create.
 - [CobbleCompanion: AllInOne](https://github.com/siralusian/CobbleCompanion-AllInOne) — dieses
   Modul plus alles andere, in einer Datei.
 - [CobbleCompanion: CobbleDollars-Bundle](https://github.com/siralusian/CobbleCompanion-CobbleDollarsBundle) —

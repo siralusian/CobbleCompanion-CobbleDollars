@@ -244,6 +244,11 @@ public class WalletTabExtension implements CompanionTabExtension {
                     text = ctx.tr("cobblecompanion.gui.wallet.log_online_reward", formattedAmount);
                     color = "55ff55";
                 }
+                case TransactionLogManager.EXTERNAL_CHARGE -> {
+                    text = ctx.tr("cobblecompanion.gui.wallet.log_external_charge",
+                        entry.counterpart() != null ? entry.counterpart() : "?", formattedAmount);
+                    color = "ff5555";
+                }
                 default -> {
                     text = formattedAmount;
                     color = "ffffff";
