@@ -1,6 +1,6 @@
 # CobbleCompanion: CobbleDollars
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C3W0229LCP)
+*AI-generated content: this mod was developed with AI assistance (Claude). / KI-generierte Inhalte: Diese Mod wurde mit KI-Unterstützung (Claude) entwickelt.*
 
 [🇩🇪 Deutsche Version weiter unten](#deutsch)
 
@@ -30,38 +30,35 @@ README for how) and switch to the **Wallet** tab — no separate command or keyb
 lights up once the CobbleDollars mod is actually loaded server-side; otherwise it shows as an
 inactive placeholder.
 
-**Dependencies:** CobbleCompanion: Basis (required), CobbleDollars (required — without it the
-Wallet tab stays inactive).
+### Dependencies
 
-### Building
+Required:
+[CobbleCompanion](https://modrinth.com/mod/uc8Q0UPV)
+[Cobblemon](https://modrinth.com/mod/cobblemon)
+[CobbleDollars](https://modrinth.com/mod/cobbledollars)
 
-No foreign mod jars ship in `libs/` for licensing reasons — place them there yourself before
-building.
+Without CobbleDollars, the Wallet tab stays inactive but nothing else breaks.
 
-**Own dependency (build it yourself):**
-- `CobbleCompanion-Basis-*.jar` — build from the
-  [CobbleCompanion](https://github.com/siralusian/CobbleCompanion) repo with `./gradlew jar`, copy
-  the result from `build/libs/` into `libs/` here.
+### Check out my other projects too
 
-**Required:**
-- `Cobblemon-neoforge-*.jar` — [Modrinth](https://modrinth.com/mod/cobblemon) /
-  [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cobblemon)
-- `CobbleDollars-neoforge-*.jar` — the CobbleDollars mod
+- [Area Claims](https://curseforge.com/minecraft/mc-mods/area-claims) — Lets players claim their
+  own area on your server.
+- [CobbleCompanion](https://curseforge.com/minecraft/mc-mods/cobblecompanion-all-in-one) —
+  companion tool for the Cobblemon mod.
+- [Create: Let's Do Automation](https://curseforge.com/minecraft/mc-mods/create-let-s-do) — lets
+  you automatically fill Let's Do work blocks using Create.
+- [CreativeMenu](https://curseforge.com/minecraft/mc-mods/creative-menu) — freely design your
+  Creative menu the way you want. Fully configurable in-game.
+- [CopycatSign](https://curseforge.com/minecraft/mc-mods/create-copycat-sign) — hang pictures on
+  your walls, Create trains, airships and more, with freely choosable border and back textures.
+- [Item Creator](https://curseforge.com/minecraft/mc-mods/itemcreator) — create items with
+  enchantments and more, entirely without /give commands.
+- [InvSpy](https://curseforge.com/minecraft/mc-mods/invspy) — powerful tool for server admins.
+  Check which player used a chest, or what your players are carrying in their inventory.
+- [MobTweaks](https://curseforge.com/minecraft/mc-mods/mobtweak) — tool for server admins. Control
+  which mobs may spawn where, adjust loot, or prevent world damage from Creepers, Endermen and co.
 
-### Other CobbleCompanion projects
-
-- [CobbleCompanion](https://github.com/siralusian/CobbleCompanion) — the base mod this depends on.
-- [CobbleCompanion: CobbleDollars/Create](https://github.com/siralusian/CobbleCompanion-CobbleDollars-Create) —
-  adds Create stock-ticker and Content Observer integration on top of this.
-- [CobbleCompanion: CobbleDollars/CustomNPCs](https://github.com/siralusian/CobbleCompanion-CobbleDollars-CustomNPCs) —
-  adds CustomNPCs trader integration on top of this.
-- [CobbleCompanion: CobblemonWorker](https://github.com/siralusian/CobbleCompanion-CobblemonWorker)
-- [Create: Let's Do Automation](https://github.com/siralusian/CreateLetsDo) — unrelated standalone
-  mod, automates Let's Do: Farm & Charm blocks with Create.
-- [CobbleCompanion: AllInOne](https://github.com/siralusian/CobbleCompanion-AllInOne) — this
-  module plus everything else, in one file.
-- [CobbleCompanion: CobbleDollars-Bundle](https://github.com/siralusian/CobbleCompanion-CobbleDollarsBundle) —
-  this module plus the Create/CustomNPCs integrations, in one file.
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C3W0229LCP)
 
 ---
 
@@ -91,35 +88,24 @@ Server läuft:
 **Wallet**-Tab – kein eigener Befehl oder Keybind nötig. Der Tab aktiviert sich nur, wenn die
 CobbleDollars-Mod tatsächlich serverseitig geladen ist, sonst bleibt er als inaktiver Platzhalter.
 
-**Abhängigkeiten:** CobbleCompanion: Basis (erforderlich), CobbleDollars (erforderlich – ohne
-diese Mod bleibt der Wallet-Tab inaktiv).
+### Abhängigkeiten
 
-### Bauen
+Erforderlich:
+[CobbleCompanion](https://modrinth.com/mod/uc8Q0UPV)
+[Cobblemon](https://modrinth.com/mod/cobblemon)
+[CobbleDollars](https://modrinth.com/mod/cobbledollars)
 
-Aus Lizenzgründen liegen keine fremden Mod-Jars in `libs/` im Repo – du musst sie vor dem Bauen
-selbst dort ablegen.
+Ohne CobbleDollars bleibt der Wallet-Tab inaktiv, sonst funktioniert alles normal.
 
-**Eigene Abhängigkeit (musst du selbst bauen):**
-- `CobbleCompanion-Basis-*.jar` — aus dem [CobbleCompanion](https://github.com/siralusian/CobbleCompanion)-Repo
-  mit `./gradlew jar` bauen, das Ergebnis aus `build/libs/` hierher nach `libs/` kopieren.
+### Sieh dir auch meine anderen Projekte an
 
-**Erforderlich:**
-- `Cobblemon-neoforge-*.jar` — [Modrinth](https://modrinth.com/mod/cobblemon) /
-  [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cobblemon)
-- `CobbleDollars-neoforge-*.jar` — die CobbleDollars-Mod
+- [Area Claims](https://curseforge.com/minecraft/mc-mods/area-claims) — Erlaube es Spielern ihren eigenen Bereich auf deinem Server zu beanspruchen.
+- [CobbleCompanion](https://curseforge.com/minecraft/mc-mods/cobblecompanion-all-in-one) Hilfstool für die Cobblemon Mod
+- [Create: Let's Do Automation](https://curseforge.com/minecraft/mc-mods/create-let-s-do) — Ermöglicht das automatische Befüllen von Let's Do Arbeitsblöcken mithilfe von Create.
+- [CreativeMenu](https://curseforge.com/minecraft/mc-mods/creative-menu) — Gestalte dein Creative Menü frei nach deinen Wünschen. Alles ingame einstellbar.
+- [CopycatSign](https://curseforge.com/minecraft/mc-mods/create-copycat-sign) — Hänge Bilder an deine Wände, Züge, Luftschiffe und Co mit frei wählbaren Rand- und Rückseiten-Texturen.
+- [Item Creator](https://curseforge.com/minecraft/mc-mods/itemcreator) — Erzeuge Items mit Verzauberungen und Co ganz ohne /give Commands
+- [InvSpy](https://curseforge.com/minecraft/mc-mods/invspy) — Starkes Tool für Server-Betreiber. Prüfe welcher Spieler sich an einer Truhe bedient hat oder was deine Spieler im Inventar haben.
+- [MobTweaks](https://curseforge.com/minecraft/mc-mods/mobtweak) — Tool für Server-Betreiber. Steuere welche Mobs wo spawnen dürfen, passe den Loot an oder verhindere Schaden in der Welt durch Creeper, Enderman und co.
 
-### Weitere CobbleCompanion-Projekte
-
-- [CobbleCompanion](https://github.com/siralusian/CobbleCompanion) — die Basis-Mod, von der dieses
-  Modul abhängt.
-- [CobbleCompanion: CobbleDollars/Create](https://github.com/siralusian/CobbleCompanion-CobbleDollars-Create) —
-  fügt darauf aufbauend Create-Lagerticker- und Content-Observer-Anbindung hinzu.
-- [CobbleCompanion: CobbleDollars/CustomNPCs](https://github.com/siralusian/CobbleCompanion-CobbleDollars-CustomNPCs) —
-  fügt darauf aufbauend CustomNPCs-Händler-Anbindung hinzu.
-- [CobbleCompanion: CobblemonWorker](https://github.com/siralusian/CobbleCompanion-CobblemonWorker)
-- [Create: Let's Do Automation](https://github.com/siralusian/CreateLetsDo) — unrelated standalone
-  mod, automates Let's Do: Farm & Charm blocks with Create.
-- [CobbleCompanion: AllInOne](https://github.com/siralusian/CobbleCompanion-AllInOne) — dieses
-  Modul plus alles andere, in einer Datei.
-- [CobbleCompanion: CobbleDollars-Bundle](https://github.com/siralusian/CobbleCompanion-CobbleDollarsBundle) —
-  dieses Modul plus die Create-/CustomNPCs-Anbindung, in einer Datei.
+*AI-generated content: this mod was developed with AI assistance (Claude). / KI-generierte Inhalte: Diese Mod wurde mit KI-Unterstützung (Claude) entwickelt.*
